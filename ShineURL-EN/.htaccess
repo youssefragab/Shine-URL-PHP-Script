@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^l/(.+)$ php/Redirect.php?id=$1 [NE,L]

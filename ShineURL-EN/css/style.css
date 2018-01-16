@@ -1,0 +1,347 @@
+/* Import Open Sans Font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+/* Set Up Animations */
+@keyframes Rotate360 {
+100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); }
+}
+@-webkit-keyframes pulse {
+   0% { transform: scale(1); }
+   50% { transform: scale(1.1); }
+   100% { transform: scale(1); } 
+}
+@-moz-keyframes pulse {
+   0% { transform: scale(1); }
+   50% { transform: scale(1.1); }
+   100% { transform: scale(1); } 
+}
+@-o-keyframes pulse {
+   0% { transform: scale(1); }
+   50% { transform: scale(1.1); }
+   100% { transform: scale(1); } 
+}
+@keyframes pulse {
+   0% { transform: scale(1); }
+   50% { transform: scale(1.1); }
+   100% { transform: scale(1); } 
+}
+/* Reset Body */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* styling scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    opacity:0.8;
+    background-color: #2e3e4e;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color:  #1277ee;
+
+}
+
+::-moz-scrollbar {
+    width: 10px;
+}
+
+::-moz-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    opacity:0.8;
+    background-color: #2e3e4e;
+}
+
+::-moz-scrollbar-thumb {
+   background-color:  #1277ee;
+
+}
+
+::-o-scrollbar {
+    width: 10px;
+}
+
+::-o-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    opacity:0.8;
+    background-color: #2e3e4e;
+}
+
+::-o-scrollbar-thumb {
+   background-color:  #1277ee;
+
+}
+
+::-ms-scrollbar {
+    width: 10px;
+}
+
+::-ms-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    opacity:0.8;
+    background-color: #2e3e4e;
+}
+
+::-ms-scrollbar-thumb {
+   background-color:  #1277ee;
+
+}
+
+
+scrollbar {
+    width: 10px;
+}
+
+scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    opacity:0.8;
+    background-color: #2e3e4e;
+}
+
+scrollbar-thumb {
+   background-color:  #1277ee;
+
+}
+
+
+.content {
+  width: 100%;
+  min-height: 635px;
+  overflow: auto;
+  background: url("../images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Top Bar Styling */
+#top-bar {
+  width: 100%;
+  min-height: 5px;
+  overflow: auto;
+  padding: 20px 24px;
+}
+#top-bar .logo {
+  width: auto;
+  margin: 0;
+  padding: 15px 20px;
+  background: #1277ee;
+  font-size: 18pt;
+  color: #fff;
+  float: left;
+  border-radius: 25px;
+  font-weight: bold;
+}
+.social-media-box {
+  width: auto;
+  height: auto;
+  background: #fff;
+  padding: 11px 20px ;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  border-radius: 25px;
+}
+.social-media-box i {
+  margin: 0;
+  color: #1277ee;
+  font-size: 14pt;
+  margin-right: 7px;
+  margin-left: 7px;
+  position: relative;
+  top: 2px;
+}
+.social-media-box i:hover {
+  animation: Rotate360 0.5s ease;
+}
+.content-container {
+  margin-top: 60px;
+}
+.content-1 h2 {
+  color: #fff;
+}
+.content-1 h3 {
+  color: #fff;
+  font-size: 15pt;
+  font-weight: bold;
+  margin-bottom:35px;
+}
+button {
+  background-color: #1277ee;
+  color: #fff;
+  border: 0;
+  font-size: 15pt;
+  padding: 10px 50px;
+  border-radius: 8px;
+  transition: 0.5s ease;
+  margin-bottom: 25px;
+}
+button:hover,button:focus,button:active {
+  background-color: #fff;
+  color: #1277ee;
+}
+.content-2 {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.latest-links-container {
+  width: 100%;
+  min-height: 200px;
+  overflow: auto;
+  border-radius: 25px;
+  background-color: #2e3e4e;
+  padding: 15px;
+}
+.latest-links-sign {
+  width: 100%;
+  min-height: 1px;
+  overflow: auto;
+  float: left;
+  padding-bottom: 7px;
+}
+.latest-links-sign h2 {
+  color: #fff;
+  background-color: #1277ee;
+  padding: 15px;
+  font-size: 10pt;
+  float: left;
+  border-radius: 20px;
+  font-weight: bolder;
+  margin: 0;
+}
+.latest-links {
+  width: 100%;
+  min-height: 5px;
+  overflow: auto;
+  float: left;
+  padding: 10px;
+  margin-top: 5px;
+}
+.link {
+  width: 100%;
+  float: left;
+  min-height: 1px;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+.sub-link-container {
+  width: 100%;
+  float: left;
+  min-height: 1px;
+    overflow: hidden;
+  margin-bottom: 5px;
+  padding: 3px;
+}
+.sub-link-container h3 {
+  color: #fff;
+  font-size: 12pt;
+  float: left;
+  margin: 0;
+  font-weight: bold;
+}
+.sub-link-container img {
+  float: left;
+  margin-left: 5px;
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+
+}
+.sub-link-container img:hover {
+  animation: Rotate360 0.5s ease;
+}
+.main-link-container {
+  width: 100%;
+  min-height: 1px;
+  overflow: hidden;
+  float: left;
+padding-left: 3px;
+padding-bottom: 3px;
+}
+.main-link-container h5 {
+  color: #b4b3b3;
+  margin: 0;
+  font-size: 8pt;
+  float: left;
+  font-weight: bold;
+}
+#footer {
+  width: 100%;
+  min-height: 60px;
+  background-color: #2e3e4e;
+  padding: 20px 10px;
+  position: relative;
+}
+#footer h2 {
+  color: #fff;
+  font-size: 14pt;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+
+#footer h3 {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: #fff;
+  font-size: 10pt;
+  padding: 15px;
+  background-color: #1277ee;
+  border-radius: 10px;
+  margin: 0;
+}
+#footer h3 i {
+  color: #dc0c42;
+  animation: pulse 0.5s ease infinite;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+#footer a {
+  text-decoration: none;
+}
+.shorted-url {
+  margin: 0;
+  font-size: 14pt;
+  color: #fff;
+  background: #1277ee;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 0;
+}
+.copy {
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 14pt;
+  background-color: #2e3e4e;
+  border-radius: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.copy-containe {
+  width: 100%;
+  min-height: 10px;
+  overflow: auto;
+}
+.copy img {
+  position: relative;
+  top:-2px;
+}
+.cp-con {
+  position: absolute;
+  opacity: 0;
+}
+.notfound {
+  position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 80pt;
+   color: #fff;
+}
