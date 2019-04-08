@@ -2,4 +2,4 @@
 Shine URL Allows Users to Short Cut their Links
 
 Visit Demos From Here:
-https://youssefragab.com/products/shine
+https://youssefragab.com/product/shine
